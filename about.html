@@ -215,7 +215,7 @@
     </section>
 
 		
-   <footer class="ftco-footer ftco-bg-dark ftco-section">
+  <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div> <!-- Calendly badge widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -240,12 +240,7 @@
                 </ul>
               </div>
 
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="https://twitter.com/ehmdentalclinic"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://fb.com/ehmdentalclinic"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://instagram.com/ehmdentalclinic"><span class="icon-instagram"></span></a></li>
-                <li class="ftco-animate"><a href="https://m.me/ehmdentalclinic"><span class="icon-chat"></span></a></li>
-              </ul>
+              
             </div>
           </div>
           <div class="col-md">
@@ -306,55 +301,24 @@
           <div class="col-md">
             <div class="ftco-footer-widget mb-5">
               <h2 class="ftco-heading-2">Opening Hours</h2>
-              <h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>Mon - Sat: 8:00am - 7:00pm Sun: Closed</h3>
+              <h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>Mon - Sat: 10:00am - 6:00pm Sun: Closed</h3>
             </div>
             <div class="ftco-footer-widget mb-5">
-              <h2 class="ftco-heading-2">Subscribe Us!</h2>
+              <h2 class="ftco-heading-2">Follow us on Social Media</h2>
               <!--<form action="#" class="subscribe-form">-->
+                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <li class="ftco-animate"><a href="https://twitter.com/ehmdentalclinic"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://fb.com/ehmdentalclinic"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://instagram.com/ehmdentalclinic"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://m.me/ehmdentalclinic"><span class="icon-chat"></span></a></li>
+              </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-                <form method="post" class="subscribe-form" action="//submit.form" onSubmit="return validateForm();">
-<div style="width: 400px;">
-</div>
-<div style="padding-bottom: 18px;font-size : 24px;">Newsletter Subscription</div>
-<div style="padding-bottom: 18px;">NAME<span style="color: red;"> *</span><br/>
-<input type="text" id="data_2" name="data_2" style="width : 300px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;">ORGANIZATION<br/>
-<input type="text" id="data_3" name="data_3" style="width : 300px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;">EMAIL<span style="color: red;"> *</span><br/>
-<input type="text" id="data_4" name="data_4" style="width : 300px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;"><input name="skip_Submit" value="SUBSCRIBE" type="submit"/></div>
-<div>
-
-
-</div>
-</form>
-
-<script type="text/javascript">
-function validateForm() {
-if (isEmpty(document.getElementById('data_2').value.trim())) {
-alert('NAME is required!');
-return false;
-}
-if (isEmpty(document.getElementById('data_4').value.trim())) {
-alert('EMAIL is required!');
-return false;
-}
-if (!validateEmail(document.getElementById('data_4').value.trim())) {
-alert('EMAIL must be a valid email address!');
-return false;
-}
-return true;
-}
-function isEmpty(str) { return (str.length === 0 || !str.trim()); }
-function validateEmail(email) {
-var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
-return isEmpty(email) || re.test(email);
-}
-</script>
+         
                 <!--<div class="form-group">
                   <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
                   <input type="submit" value="Subscribe" class="form-control submit px-3">
